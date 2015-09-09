@@ -1,0 +1,339 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Open+Sans:400,300,300italic,400italic,600,600italic);
+
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+/*font-family: 'Poiret One', cursive;*/
+
+
+/* Global Surfing (General Settings) */
+*{
+margin:0;
+padding: 0;
+box-sizing:border-box;/*****************************/
+}
+
+/*html {
+	background-color: #B5AFA2;
+}*/
+
+/*HEADER*/
+body {
+    font-family: 'Open Sans';
+}
+a{
+    text-decoration: none;
+}
+
+.wrap {
+    height: auto;
+    width: 100%;
+}
+
+div#header {
+    width:100%;
+    height:80px;
+    background-color: #48494A;
+    margin: 0 auto;
+}
+
+/*Creating logo*/
+.logo {
+    float: center;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.logo a {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.6em; /*to make is compatible with any browser*/
+    font-weight: 300;
+    color: #fff;
+}
+
+.logo a span {
+    font-size: 2em;    
+}
+
+div#container{
+    width: 100%;
+    margin: 0 auto;
+    height:auto;
+    align-self: center;
+}
+
+.headings {
+    font-family: 'Poiret One', cursive;
+    font-size: 1.4em;
+    font-weight: 200;
+    color: #303030;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+/* ICON */
+/*div#icon {
+    float: center;
+    margin-top: 500px;
+    align-self: center;
+   
+}*/
+
+div#icon a {
+    font-family: 'Poiret One', cursive;
+    font-size: 2em; /*to make is compatible with any browser*/
+    font-weight: 300;
+    color: #fff;
+}
+
+div#icon a span {
+    font-size: 3em;    
+}
+
+
+/*CONTENT*/
+div#content {
+    width: auto; /*fills up remaining space*/
+    height:50%;
+   /* background-color:#B5AFA2;*/
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 15px;
+}
+
+
+div#content img {
+    -webkit-user-select: none;
+    align-self: center;
+    width: 40%;
+    height: 85%;
+    margin-left: 30%;
+    margin-top: 0 auto;
+    
+ }
+
+/*.content p{
+    color: #424242;
+    font-size: 0.8em;*/
+
+/*actual content*/
+
+/*div#box{
+    margin-top: :15px;
+    margin-bottom: 15px;*/
+}
+div#box {
+    margin-top: :15px;
+    margin-bottom: 15px;
+    
+    
+    
+    
+/*    
+primary-nav {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}*/
+    
+}
+div#box .box-top {
+    color: #fff;
+    text-shadow: 0px 1px #000; /*solid black*/
+    background-color:dimgray;
+    font-size: 0.8em;
+    padding: 5px;
+    padding-left: 15px;
+    font-weight: 300; /*font will be thicker*/
+}
+
+div#box .box-panel{
+    padding: 15px;
+    background-color: #fff;
+    font-size: 0.8em;
+}
+
+
+.left{
+    width: 50%; 
+    height: 50%;
+    background-color:#1C1C1C;
+    float:left;
+    bottom=0;
+}
+
+.right{
+    width: 50%; 
+    height: 50%;
+    background-color:#1C1C1C;
+    float:right;
+    text-align: right;
+    bottom=0;
+}
+
+ul#nav li{
+    list-style: none;
+    font-size: 50px;
+   font-weight: 800;
+   letter-spacing: .5px;
+    font-family: 'Poiret One', cursive;
+    text-decoration-style: wavy;
+}
+
+ul#nav li a {
+    color:#ccc;
+    display: block;
+    padding: 7px;
+    font-size: 0.7em;
+    border-bottom: 1px solid #141414 ; /*Underlines box*/
+   -webkit-transition: 0.2s;
+    trasition: 0.2s
+}
+
+.left ul#nav li a:hover {
+    background-color: #34495E;
+    color: #fff;
+    padding-left: 1px;
+}
+
+.right ul#nav li a:hover {
+    background-color: #34495E;
+    color: #fff;
+    padding-right: 1px;
+}
+
+.content {
+    width: auto; /*fills up remaining space*/
+    height:100%;
+    background-color:#B5AFA2;
+    padding:15px 15px 15px 15px;
+}
+
+.content p{
+    color: #424242;
+    font-size: 0.8em;
+    ont-family: 'Poiret One', cursive;
+    letter-spacing: .5px;
+    
+}
+
+ 
+/*FOOTER*/
+div#footer {
+    height: 15px;
+    margin: 25px;
+    background-color: #48494A;
+    padding: 5px;
+}
+
+div#footer .down {
+    width: 70%;
+    align-self: right;
+    text-align: right:
+    bottom= 0;
+    margin: 15px;
+    float: right;
+    background-color: #95A5A6;
+    color: :000;
+    
+}
+    
+div#footer .down a {
+    color: cadetblue;
+    font-family: 'Poiret One', cursive;
+    font-size:0.8em;
+}
+
+    
+/*CONTACTS*/
+div#contact {
+    height:30%;
+    background-color: #B5AFA2; 
+}
+ 
+div#box3 {
+    background-color: #B5AFA2;
+    height:auto;
+    width:1000px;
+    float:left;
+    height: 100%
+}
+
+div#boxed {
+    background-color: dimgray;
+    width: auto;
+    margin-left: 1000px;
+    height: 100%
+}
+div#boxed .inbox1 {
+    background-color: dimgray;
+    margin-left:0;
+    width: auto;
+    height:50%;
+    float:center;
+    top: 0;
+}
+div#boxed .inbox2{
+    background-color: dimgray;
+    margin-left:0;
+    width: auto;
+    height:50%;
+    float: center;
+    bottom: 0;
+   
+}
+
+div#contact .box-top {
+    font-family: 'Poiret One', cursive;
+    font-size: 0.8em;
+    /*text-shadow: 0px 1px #000;*/ /*solid black*/
+    background-color:dimgray;
+    padding: 5px;
+    padding-left: 15px;
+    font-weight: 300; /*font will be lighter*/
+}
+
+div#contact .box-panel {
+    font-family: 'Poiret One', cursive;
+    padding: 15px;
+    background-color:dimgray;
+    font-size: 1em;
+    font-style: oblique;
+    color: #fff;
+}
+
+
+
+ /*  stuff  */
+
+.box3 {
+	color: #ccc;
+	float: right;
+	font-size: 30px;
+	padding-right: 50px;
+	display: inline-flex;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+.box3 a:hover {
+	background-color: #34495E;
+    color: #fff;
+    padding-right: 1px;
+}
+
+/*Navigation stuff */
+
+.footer {
+	margin: 20px 0 50px 0;
+	text-transform: uppercase;
+	background-color: #34495E;
+	color: #fff;
+	text-align: center;
+	height: 180px;
+	font-size: 25px;
+
+}
+div#container2 {
+	width: 100%;
+	height: 560px;
+}
+
